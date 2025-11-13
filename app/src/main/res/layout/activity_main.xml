@@ -71,8 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="#9C27B0"
-            app:itemIconTint="@color/white"
-            app:itemTextColor="@color/white"
+            app:itemIconTint="@color/selector_tab"
+            app:itemTextColor="@color/selector_tab"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_nav"
             />
