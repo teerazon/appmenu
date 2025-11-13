@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nonthakorn.appmenu.fragments.HomeFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.nonthakorn.appmenu.fragments.AboutFragment"
+        android:label="หน้าเกี่ยวกับเรา"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.nonthakorn.appmenu.fragments.AccountFragment"
+        android:label="บัญชีของฉัน"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.nonthakorn.appmenu.fragments.AddProductFragment"
+        android:label="หน้าเพิ่มสินค้า"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.nonthakorn.appmenu.fragments.NotificationFragment"
+        android:label="หน้าแจ้งเตือน"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.nonthakorn.appmenu.fragments.ProductFragment"
+        android:label="สินค้า"
+        tools:layout="@layout/fragment_product" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.nonthakorn.appmenu.fragments.ServiceFragment"
+        android:label="หน้าบริการ"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.nonthakorn.appmenu.fragments.SettingFragment"
+        android:label="หน้าการตั้งค่า"
+        tools:layout="@layout/fragment_setting" />
+</navigation>
