@@ -83,6 +83,8 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
+<!--    navigation view-->
+
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/main_navigation_view"
         android:layout_width="wrap_content"
@@ -90,5 +92,6 @@
         style="@style/Widget.Design.NavigationView"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"/>
 </androidx.drawerlayout.widget.DrawerLayout>
