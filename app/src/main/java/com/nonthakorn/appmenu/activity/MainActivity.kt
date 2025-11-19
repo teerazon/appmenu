@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController,appBarConfiguration)
 
         //เรียกใช้งานเมนูด้านข้าง
-        mainBottomNavigationView.setupWithNavController(navController)
+        mainNevigationView.setupWithNavController(navController)
 
         //เรียกใช้งานเมนูด้านล่าง
         mainBottomNavigationView.setupWithNavController(navController)
