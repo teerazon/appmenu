@@ -21,7 +21,7 @@
         android:label="บัญชีของฉัน"
         tools:layout="@layout/fragment_account" />
     <fragment
-        android:id="@+id/addProductFragment"
+        android:id="@+id/addproductFragment"
         android:name="com.nonthakorn.appmenu.fragments.AddProductFragment"
         android:label="หน้าเพิ่มสินค้า"
         tools:layout="@layout/fragment_add_product" />

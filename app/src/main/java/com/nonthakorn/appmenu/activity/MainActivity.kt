@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var  mainToolbar: Toolbar
     lateinit var  mainDrawerLayout: DrawerLayout
     lateinit var  mainNevigationView: NavigationView
-    lateinit var  mainBottomNavigationView: NavigationView
+    lateinit var  mainBottomNavigationView: BottomNavigationView
 
 
 
@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration.Builder(
             R.id.homeFragment,
             R.id.productFragment,
+            R.id.addproductFragment,
             R.id.notificationFragment,
             R.id.accountFragment
         ).setOpenableLayout(mainDrawerLayout).build()
